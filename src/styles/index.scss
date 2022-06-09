@@ -1,0 +1,56 @@
+@import './modules/fonts';
+@import './modules/reset';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins"; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    position: relative;
+    background-color: #1B1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    height: 46px;
+    min-width: 155px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+//Importing header
+@import './modules/header';
+//Importing about us section
+@import './modules/sections/about-us';
+//Importing about us section
+@import './modules/sections/about-firm';
+//Importing banner with text section
+@import './modules/sections/banner-image';
+//Importing our process section
+@import './modules/sections/our-process';
+//Importing customers section
+@import './modules/sections/customers';
+//Importing featured section
+@import './modules/sections/featured';
+//Importing our team section
+@import './modules/sections/our-teams';
+//Importing footer
+@import './modules/footer';

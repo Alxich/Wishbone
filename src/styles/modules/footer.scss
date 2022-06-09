@@ -1,0 +1,107 @@
+#colophon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .top {
+        background: #CEC4BC;
+        width: 100%;
+        padding: 100px 0;
+
+        .lt-side {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 570px;
+            width: 100%;
+        }
+
+        .subtitle {
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.2;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #645C55;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 1.4;
+            color: #1B1A1A;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 14px;
+            height: 46px;
+            width: 133px;
+            margin: 41px 0 0 5px;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                background-color: #1B1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .bottom {
+        background: #F7F7F7;
+        width: 100%;
+        padding: 60px 0;
+
+        .lt-side {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 570px;
+            width: 100%;
+        }
+
+        .copyrights {
+            font-size: 0.813rem;
+            font-weight: 400;
+            line-height: 1.4;
+            color: #645C55;
+            padding-top: 20px;
+        }
+
+        .rt-side {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            max-width: 112px;
+            width: 100%;
+
+            .icon {
+                display: flex;
+                height: 25px;
+                width: 25px;
+                overflow: hidden;
+            }
+
+            img {
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+}

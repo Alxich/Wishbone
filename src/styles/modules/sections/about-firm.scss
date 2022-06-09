@@ -1,0 +1,86 @@
+#about-firm {
+    padding: 100px 0;
+
+    .container {
+        flex-direction: row;
+        align-items: stretch;
+        max-width: 768px;
+        width: 100%;
+
+        .firm-title {    
+            display: block;
+            width: calc(50% - 132px);
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.2;
+            color: #403E3B;
+
+            h3 {
+                position: sticky;
+                display: block;
+                top: 32px;
+                bottom: 84px;
+                left: 0;
+            }
+        }
+
+        .content {
+            width: calc(50% + 132px);
+
+            .text-block {
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.4;
+                color: #403E3B;
+                padding-bottom: 20px;
+            }
+
+            .author {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .thumbnail {
+                position: relative;
+                display: flex;
+                border: 3px solid #CEC4BC;
+                border-radius: 64px;
+                height: 84px;
+                width: 84px;
+                overflow: hidden;
+
+                img {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .author-text {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 30px;
+
+                .title {
+                    font-size: 1.063rem;
+                    font-weight: 400;
+                    line-height: 1.25;
+                    color: #1B1A1A;
+                }
+                
+                .subtitle {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: 1;
+                    color: #645C55;
+                }
+            }
+        }
+    }
+}
